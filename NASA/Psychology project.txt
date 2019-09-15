@@ -1,0 +1,12 @@
+Shaping is a conditioning paradigm used primarily in the experimental analysis of behavior. 
+The method used is differential reinforcement of successive approximations. 
+It was introduced by B. F. Skinner with pigeons and extended to dogs, dolphins, 
+humans and other species. In shaping, the form of an existing response is gradually 
+changed across successive trials towards a desired target behavior by rewarding exact 
+segments of behavior.
+
+Through shaping in basic terminology you reinforce action that you deem appropiate with 
+snacks or something the subject likes. Ones the subject knowns you have something it likes
+it will adjust its behaviour and actions in order to recieve more. Here is where you would 
+make slight changes to what you deem as appropiate behaviour until the subject is doing as you 
+please.

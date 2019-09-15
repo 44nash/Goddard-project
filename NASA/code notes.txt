@@ -1,0 +1,39 @@
+Size---add more 
+Tracking the Black Aurora
+
+function score = myCorrelationMatch(imgA, imgB)
+
+[ROWS, COLS] = size(imgA);
+disp([ROWS, COLS]);
+aVec = double(reshape(imgA,ROWS*COLS,1));
+bVec = double(reshape(imgB,ROWS*COLS,1));
+aVecSize = size(aVec,1);
+bVecSize = size(bVec,1);
+ATotal = sum(aVec);
+BTotal = sum(bVec);
+aMean = ATotal/ aVecSize;
+bMean = BTotal/ bVecSize;
+c = 0;
+for i=1:1:aVecSize
+    a= aVec(i)-aMean;
+    b= bVec(i)-bMean;
+    c= (a*b)+c;
+end
+CovXY = c/(aVecSize-1);
+
+sum2 = 0;
+for i=1:1:aVecSize
+    sum2 = (power((aVec(i) - aMean),2))+sum2;
+end
+SampleVar = sum2/aVecSize -1;
+SDA = realsqrt(SampleVar);
+
+sum2 = 0;
+for i=1:1:bVecSize
+    sum2 = (power((bVec(i) - bMean),2))+sum2;
+end
+SampleVar = sum2/bVecSize -1;
+%disp(SampleVar);
+SDB = realsqrt(SampleVar);
+
+rho2 = CovXY/(SDA*SDB);

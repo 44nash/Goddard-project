@@ -1,0 +1,188 @@
+Use google search to find the answers to the following question 
+
+
+2. Write some basic concepts of OOD? 
+______________________________________
+The basic unit of OOP is a class, which encapsulates both the static properties and dynamic operations within a "box", and specifies the public interface for using these boxes. ...
+OOP languages permit higher level of abstraction for solving real-life problems
+______________________________________
+
+
+3. Explain class  
+________________________________
+In object-oriented programming , a class is a template definition of the method s and variable s in a particular kind of object . Thus, an object is a specific instance of a class; it contains real values instead of variables. The class is one of the defining ideas of object-oriented programming
+________________________________
+
+4. Explain object 
+____________________________________
+Object (computer science) ... In the class-based object-oriented programming paradigm, object refers to a particular instance of a class, where the object can be a combination of variables, functions, and data structures.
+____________________________________
+
+
+5. Explain Encapsulation 
+____________________________________
+In object oriented programming languages, encapsulation is used to refer to one of two related but distinct notions, and sometimes to the combination thereof: A language mechanism for restricting direct access to some of the object's components
+____________________________________
+
+
+6. Explain Polymorphism 
+____________________________________
+The word polymorphism is used in various contexts and describes situations in which something occurs in several different forms. In computer science, it describes the concept that objects of different types can be accessed through the same interface. ... It is one of the core concepts of object-oriented programming
+____________________________________
+
+
+
+7. Explain Inheritance 
+______________________________________
+Inheritance. In object-oriented programming, inheritance enables new objects to take on the properties of existing objects. A class that is used as the basis for inheritance is called a superclass or base class. A class that inherits from a superclass is called a subclass or derived class
+______________________________________
+
+  
+
+12. Explain virtual function 
+_________________________________
+In object-oriented programming, in languages such as C++, and Object Pascal, a virtual function or virtual method is an inheritable and overridable function or method for which dynamic dispatch is facilitated. This concept is an important part of the (runtime) polymorphism portion of object-oriented programming
+_________________________________
+
+  
+
+14. Explain function overloading 
+_______________________________________
+A feature in C++ that enables several functions of the same name can be defined with different types of parameters or different number of parameters. ... Function overloading (also method overloading) is a programming concept that allows programmers to define two or more functions with the same name and in the same scope
+_______________________________________
+
+
+
+  
+16. Explain abstract class 
+_____________________________________
+Definition - What does Abstract Class mean? In programming languages, an abstract class is a generic class (or type of object) used as a basis for creating specific objects that conform to its protocol, or the set of operations it supports. Abstract classes are not instantiated directly
+_____________________________________
+  
+
+  
+21. Explain method overriding 
+______________________________________
+Method overriding, in object-oriented programming, is a language feature that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its superclasses or parent classes. ... Some languages allow a programmer to prevent a method from being overridden.
+______________________________________
+
+
+22. Explain interface 
+________________________________
+Interfaces in Object Oriented Programming Languages. An interface is a programming structure/syntax that allows the computer to enforce certain properties on an object (class)
+________________________________
+
+23.  Explain exception handling 
+________________________________
+Exception handling is the process of responding to the occurrence, during computation, of exceptions – anomalous or exceptional conditions requiring special processing – often changing the normal flow of program execution
+________________________________
+
+
+25. Differentiate overloading from overriding ________________________________
+Overloading - occurs when two or more methods in one class have the same method name but different parameters.
+
+Overriding - means having two methods with the same method name and parameters (i.e., method signature). One of the methods is in the parent class and the other is in the child class. Overriding allows a child class to provide a specific implementation of a method that is already provided its parent class.
+
+Difference
+----------------
+1). The real object type in the run-time, not the reference variable's type, determines which overridden method is used at runtime. In contrast, reference type determines which overloaded method will be used at compile time.
+2). Polymorphism applies to overriding, not to overloading.
+3). Overriding is a run-time concept while overloading is a compile-time concept.
+
+
+________________________________
+
+
+26. Difference between class and an object? 
+_____________________________
+Many programmers still get confused by the difference between class and object. In object-oriented terminology, a Class is a template for Objects and every Object must belong to a Class. The terms "Class" and "Object" are related to one another and each term holds its own distinct meaning
+________________________________
+
+
+27. Explain  abstraction? 
+________________________________
+In object-oriented programming, abstraction is one of three central principles (along with encapsulation and inheritance). Through the process of abstraction, a programmer hides all but the relevant data about an object in order to reduce complexity and increase efficiency.
+________________________________
+  
+28. Explain  access modifiers? 
+________________________________
+Access modifiers. Access modifiers (or access specifiers) are keywords in object-oriented languages that set the accessibility of classes, methods, and other members. Access modifiers are a specific part of programming language syntax used to facilitate the encapsulation of components.
+________________________________
+
+  
+
+  
+32. What are the various types of constructors? 
+________________________________
+Dummy constructor.
+Default constructor.
+Parameterized constructor.
+Copy constructor.
+Dynamic constructor
+________________________________
+  
+
+
+  
+  
+  
+
+39. Explain  dynamic or run time polymorphism 
+________________________________
+When applied to object oriented programming languages like Java, it describes a language's ability to process objects of various types and classes through a single, uniform interface. Polymorphism in Java has two types: Compile time polymorphism (static binding) and Runtime polymorphism (dynamic binding).
+________________________________
+
+
+  
+41. Explain  copy constructor 
+________________________________
+Copy constructors define the actions performed by the compiler when copying class objects. A copy constructor has one formal parameter that is the type of the class (the parameter may be a reference to an object). It is used to create a copy of an existing object of the same class.
+________________________________
+
+
+42. What does the keyword virtual represented in the method definition? 
+________________________________
+A virtual method is a declared class method that allows overriding by a method with the same derived class signature. Virtual methods are tools used to implement the polymorphism feature of an object-oriented language, such as C#.
+________________________________
+
+
+43. Can a static method call  non-static members? 
+________________________________
+Java is a Object Oriented Programming(OOP) language, which means we need objects to access methods and variables inside of a class. However this is not always true. While discussing static keyword in java, we learned that static members are class level and can be accessed directly without any instance.
+________________________________
+
+44. Explain  base class, sub class, and super class 
+________________________________
+base class-- 
+It facilitates the creation of other classes that can reuse the code implicitly inherited from the base class (except constructors and destructors). A programmer can extend base class functionality by adding or overriding members relevant to the derived class. A base class may also be called parent class or superclass.
+
+sub class--
+Inheritance. In object-oriented programming, inheritance enables new objects to take on the properties of existing objects. A class that is used as the basis for inheritance is called a superclass or base class. A class that inherits from a superclass is called a subclass or derived class.
+
+super class--
+Superclass. In object-oriented programming, a class from which other classes inherit code is called a superclass, and the class which inherits the code is called a subclass of that superclass. Typically, a subclass inherits the instance variables and member functions of its superclass
+________________________________
+
+  
+
+46. Can an instance  be created for an abstract class? 
+________________________________
+Like C++, an abstract class can contain constructors in Java. And a constructor of abstract class is called when an instance of a inherited class is created. For example, the following is a valid Java program. ... This allows us to create classes that cannot be instantiated, but can only be inherited.
+________________________________
+
+  
+49. Which OOD concept is used as reuse mechanism? 
+________________________________
+Abstraction.
+Encapsulation.
+Inheritance.
+Polymorphism.
+________________________________
+
+50. Which OOD concept exposes only necessary information to the calling functions?
+________________________________
+Data binding is the answer
+Data binding--
+is the process that establishes a connection between the application UI and business logic. If the binding has the correct settings and the data provides the proper notifications, then, when the data changes its value, the elements that are bound to the data reflect changes automatically.
+________________________________
+

@@ -1,0 +1,18 @@
+ MainActivity.java.---***
+
+ DisplayContact.java---***
+
+ DBHelper.java---***
+
+
+ res/layout/activity_main.xml---****
+ 
+ res/layout/activity_display_contact.xml---***
+
+ res/value/string.xml---***
+
+ res/menu/main_menu.xml---
+
+ res/menu/display_contact.xml---
+
+  AndroidManifest.xml
